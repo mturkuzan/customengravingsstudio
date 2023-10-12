@@ -1,0 +1,12 @@
+baseURL = 'https://customengravingsstudio.github.io/'
+languageCode = 'en-us'
+title = 'Custom Engravings Studio'
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.100.0"
+  [[module.imports]]
+        path = "/hugo-PaperMod"
+        disable = false
